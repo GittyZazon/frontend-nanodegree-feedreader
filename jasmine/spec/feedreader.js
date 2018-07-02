@@ -85,7 +85,7 @@ $(function() {
         });
         
         it('changes content', function(done) {
-        	expect(feeds[1]).not.toEqual(feeds[2]);
+        	expect(feeds[0]).not.toEqual(feeds[1]);
         	done();
         });
     });
